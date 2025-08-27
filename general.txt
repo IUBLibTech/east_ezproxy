@@ -529,18 +529,6 @@ U http://proxy.medlib.iupui.edu
 D www.iupui.edu
 D medlib.iupui.edu
 
-#T OVID/IUPUI MedWeb
-#U http://gateway.ovid.com
-#D www.ovid.com
-#D gateway.ovid.com
-#D ovid.com
-
-#T OVID
-#U http://gateway2.ovid.com
-#H ovidsp.ovid.com
-#D www.ovid.com
-#D gateway2.ovid.com
-
 # Updated per ralight 2023-01-10
 Title CQ Researcher  (updated 20230106)
 URL http://library.cqpress.com/cqresearcher/

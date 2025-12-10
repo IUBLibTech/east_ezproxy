@@ -456,13 +456,6 @@ D sb1.abc-clio.com:8080
 D dailylife2.abc-clio.com
 D databases.abc-clio.com
 
-# Updated per RAL 2020-02-20
-T American History Online
-U https://online.infobase.com/HRC
-HJ http://online.infobase.com
-HJ online.infobase.com
-DJ infobase.com
-
 T MLA
 U http://firstsearch.oclc.org/dbname=MLA;done=referer;timeout=600;FSIP
 D firstsearch.oclc.org
@@ -691,52 +684,6 @@ T Jumstart Login
 U http://vnweb.hwwilsonweb.com/hww/jumpstart.jhtml?custid=0000109728
 D hwwilsonweb.com
 D www.hwwilsonweb.com
-
-# Updated per ralight 2022-02-04
-AnonymousURL +https://ibaseptn.infobase.com/graphql
-Title Infobase (updated 20220128)
-URL https://login.infobase.com
-HJ login.infobase.com
-HJ https://online.infobaselearning.com
-HJ online.infobaselearning.com
-HJ https://www.infobase.com
-HJ www.infobase.com
-HJ https://ebooks.infobase.com
-HJ ebooks.infobase.com
-HJ ebooks.infobaselearning.com
-HJ online.infobase.com
-HJ https://www.infobasepublishing.com
-HJ www.infobasepublishing.com
-HJ infobasepublishing.com
-HJ https://video.infobase.com
-HJ video.infobase.com
-HJ https://learn360.infobase.com
-HJ https://www.learn360.infobase.com
-HJ https://online.infobase.com
-HJ https://icof.infobaselearning.com
-HJ learn360.infobase.com
-HJ www.learn360.infobase.com
-HJ bio.infobaselearning.com
-HJ wak.infobaselearning.com
-HJ icah.infobaselearning.com
-HJ icof.infobaselearning.com
-HJ tsof.infobaselearning.com
-HJ fcg.infobase.com
-HJ wake.infobase.com
-HJ wnd.infobase.com
-HJ online.factsonfile.com
-HJ www.factsonfile.com
-HJ factsonfile.com
-HJ wao.factsonfile.com
-HJ www.fofweb.com
-HJ fofweb.com
-HJ fofweb.infobase.com
-DJ infobaselearning.com
-DJ infobasepublishing.com
-DJ infobase.com
-NeverProxy ptn.infobase.com
-NeverProxy tsof.infobase.com
-AnonymousURL -*
 
 T Test IUCat
 U http://iucat-test.ucs.indiana.edu:12200

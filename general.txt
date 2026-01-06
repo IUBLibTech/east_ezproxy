@@ -2043,17 +2043,6 @@ URL http://www.migration.amdigital.co.uk
 Title The Nixon Years, 1969-1974 
 URL http://www.archivesdirect.amdigital.co.uk/Nixon
 
-AnonymousURL +https://api.openbookpublishers.com*
-Title Open Book Publishers (updated 20220722)
-URL https://www.openbookpublishers.com
-HJ https://openbookpublishers.com
-HJ https://www.openbookpublishers.com
-HJ openbookpublishers.com
-HJ www.openbookpublishers.com
-HJ books.openbookpublishers.com
-DJ openbookpublishers.com
-AnonymousURL -*
-
 Title Perdita Manuscripts, 1500-1700 
 URL http://www.perditamanuscripts.amdigital.co.uk/default.aspx
 

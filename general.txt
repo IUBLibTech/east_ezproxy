@@ -1370,13 +1370,6 @@ HJ www.oxfordscholarship.com
 DJ oxfordscholarship.com
 DJ universitypressscholarship.com
 
-Title USMLE easy
-URL https://new.usmle-easy.com/institution
-URL https://new.usmle-easy.com/institution?encInsId=NDUzMjQyMzAx
-DJ s3.amazonaws.com
-DJ usmle-Easy.com
-DJ paeasy.com
-DJ mheducation.com
 Title African American Communities 
 URL http://www.africanamericancommunities.amdigital.co.uk/
 

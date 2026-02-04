@@ -195,12 +195,7 @@ U http://www.iue.edu/academic/library/ocindexes.shtml
 D www.iue.edu
 D www.iue.indiana.edu
 
-Title DOI System
-URL http://doi.org
-Host https://doi.org
-Host dx.doi.org
-Host https://dx.doi.org
-Domain doi.org
+# DOI system moved to common stanza
 
 T Britannica - Consumer
 U http://britannica.com
@@ -805,9 +800,6 @@ T Henry Stewart Talks
 U http://www.hstalks.com
 D hstalks.com
 
-T Emerald Resources Redirect
-U http://dx.doi.org
-D dx.doi.org
 
 T ValueLine
 U http://www3.valueline.com/secure/vlispdf/stk5000/index.aspx 

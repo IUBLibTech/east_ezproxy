@@ -15,16 +15,9 @@
 
 # DOI system moved to common stanza
 
-T Britannica - Consumer
-U http://britannica.com
-HJ eb.com
-HJ www.eb.com
-HJ www.britannica.com
-DJ britannica.com
+# Britannica - Consumer moved to common stanza
 
-T Ent Today
-U http://www.enttoday.org
-H www.enttoday.org
+# Ent Today moved to common stanza
 
 Title CIOS
 URL http://www.cios.org

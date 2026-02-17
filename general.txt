@@ -11,30 +11,7 @@
 
 # Newsbank/Readex Databases moved to common_stanza
 
-Title Harper's Weekly
-URL https://app.harpweek.com
-HJ http://app.harpweek.com
-HJ harpweek.com
-DJ harpweek.com
-
-T IU East Library Catalogs
-U http://www.iue.indiana.edu/Library/Catalogs.html
-U http://www.iue.edu/Library/Catalogs.html
-D www.iue.edu
-D www.iue.indiana.edu
-
-T IU East Library Indexes
-U http://www.iue.indiana.edu/Library/Indexes.html
-U http://www.iue.edu/Library/Indexes.html
-D www.iue.edu
-D www.iue.indiana.edu
-
-T IU East Library Off Campus Indexes
-U http://www.iue.edu/library/ocindexes.html
-U http://www.iue.indiana.edu/library/ocindexes.html
-U http://www.iue.edu/academic/library/ocindexes.shtml
-D www.iue.edu
-D www.iue.indiana.edu
+# Harper's Weekly moved to common_stanza
 
 # DOI system moved to common stanza
 

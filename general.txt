@@ -19,18 +19,7 @@
 
 # Ent Today moved to common stanza
 
-Title CIOS
-URL http://www.cios.org
-HJ http://www.cios.org/www/abstract.htm
-
-T Contemporary Women's Issues Database
-U http://search.rdsinc.com/session?userid=user2280&amp;products=CWI
-D search.rdsinc.com
-D www.rdsinc.com
-
-T Ingenta
-U http://www.ingenta.com
-D www.ingenta.com
+# Ingenta moved to common stanza
 
 T World Cat
 U http://www.ref.oclc.org:2000/dbname=WorldCat;done=referer;timeout=600;FSIP
@@ -344,9 +333,6 @@ T Homeland Security Digital Library
 U http://www.hsdl.org
 D hsdl.org
 
-T Ingenta
-U http://www.ingentaconnect.com
-D ingentaconnect.com
 
 T Project Gutenberg
 U http://www.gutenberg.org/wiki/Main_Page

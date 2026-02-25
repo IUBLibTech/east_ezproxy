@@ -356,9 +356,7 @@ u https://bl-libg-doghill.ads.iu.edu/chem-web/SciFinderWeb.html
 D bl-libg-doghill.ads.iu.edu
 D scifinder.cas.org
 
-T NCBI PubMed
-U http://www.ncbi.nlm.nih.gov/sites/entrez?otool=inuestlib
-D nlm.nih.gov
+# PubMed moved to common stanza
 
 T Census
 U http://www.census.gov

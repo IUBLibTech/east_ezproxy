@@ -33,29 +33,6 @@ U http://newfirstsearch.oclc.org
 D newfirstsearch.oclc.org
 D www.newfirstsearch.oclc.org
 
-T ABI Inform Global
-U http://www.umi.com/pqdauto
-D www.umi.com
-D proquest.umi.com
-
-T Business Source Premier
-U http://search.epnet.com/login.asp?site=ehost&profile=web
-D www.epnet.com
-D search.epnet.com
-
-T America: History and Life
-U http://serials.abc-clio.com
-U http://dailylife2.abc-clio.com
-U http://databases.abc-clio.com
-D abc-clio.com
-D serials.abc-clio.com
-D sb1.abc-clio.com
-D sb2.abc-clio.com
-D sb3.abc-clio.com
-D sb4.abc-clio.com
-D sb1.abc-clio.com:8080
-D dailylife2.abc-clio.com
-D databases.abc-clio.com
 
 T MLA
 U http://firstsearch.oclc.org/dbname=MLA;done=referer;timeout=600;FSIP
@@ -80,10 +57,14 @@ Replace hosttest="^ppubstest.acs.org^"
 Find hostprod="pubs.acs.org"
 Replace hostprod="^ppubs.acs.org^"
 
-T Kanopy
+# Lasted reviewed by ralight 2026-02-25
+T Kanopy 
 U http://iue.kanopy.com
 H https://iue.kanopy.com
 D kanopy.com
+
+# Lasted reviewed by ralight 2026-02-25
+Title Kanopy Streaming
 U http://iue.kanopystreaming.com
 H https://iue.kanopystreaming.com
 D kanopystreaming.com
@@ -106,6 +87,7 @@ HJ www.liebertonline.com
 HJ www.liebertpub.com
 DJ liebertpub.com
 
+# Lasted reviewed by ralight 2026-02-25
 # Updated per ralight 2023-10-16
 # Stanza modified from OCLC stanza
 Option Cookie
@@ -118,19 +100,16 @@ HJ www.learningexpresslibrary3.com
 DJ learningexpresslibrary3.com
 DJ learningexpresshub.com
 
-T MedWeb
-U http://proxy.medlib.iupui.edu
-D www.iupui.edu
-D medlib.iupui.edu
 
 T Social Explorer
 U https://www.socialexplorer.com 
 
-T HeritageQuest Online Index
-U http://www.heritagequestonline.com
-U http://persi.heritagequestonline.com
-D www.heritagequestonline.com
-D persi.heritagequestonline.com
+# Updated per ralight 2026-02-25
+Title HeritageQuest Online
+URL https://www.heritagequestonline.com
+HJ https://www.heritagequestonline.com
+DJ heritagequestonline.com
+NeverProxy ancestryheritagequest.com
 
 # Updated per ralight 2022-12-21
 Title BioOne Complete (updated 20200923)
@@ -141,13 +120,7 @@ HJ http://bioone.org
 HJ www.bioone.org
 DJ bioone.org
 
-T IUCAT My Account Login
-U http://iucat-alt.iu.edu:12201
-D iucat-alt.iu.edu
-DJ www.iucat.iu.edu
-HJ iucat.iu.edu
-HJ www.iucat.indiana.edu
-
+# Last reviewed by ralight 2026-02-25
 # Updated per ralight 2023-10-06
 Title Ebook Central Proxied
 URL https://ebookcentral.proquest.com/lib/iueast-ebooks
@@ -158,31 +131,6 @@ NeverProxy acs.ebookcentral.proquest.com
 
 # MathSciNet moved to common_stanzas
 
-T Greenwood Daily Life Online
-U http://dailylife.greenwood.com
-U http://wct.greenwood.com
-U http://gem.greenwood.com
-U http://www.authors4teens.com
-U http://www.urbdocs.com
-U http://ebooks.greenwood.com
-U http://hornbook.greenwood.com
-U http://cmg.lu.com
-U http://arba.lu.com
-D dailylife.greenwood.com
-D wct.greenwood.com
-D gem.greenwood.com
-D www.authors4teens.com
-D www.urbdocs.com
-D ebooks.greenwood.com
-D hornbook.greenwood.com
-D cmg.lu.com
-D arba.lu.com
-D gemweb1.greenwood.com 
-D gemweb2.greenwood.com
-D gemcas.greenwood.com
-D gemcas1.greenwood.com
-D gemapp1.greenwood.com
-D gemdb1.greenwood.com
 
 T Cambridge Scientific Abstracts
 U http://www.csa.com/htbin/dbrng.cgi?username=iue&access=iue24&db=socioabs-set-c
@@ -190,16 +138,6 @@ D www.csa.com
 D md1.csa.com
 D mdl.csa.com
 D csa.com
-
-
-T Annals of American History
-U http://www.america.eb.com
-D www.america.eb.com
-
-T Early English Books Online
-U http://wwwlib.umi.com/eebo
-D wwwlib.umi.com
-D www.umi.com
 
 T RefWorks Login
 U http://www.refworks.com
@@ -218,9 +156,6 @@ H umdl.umich.edu
 H hti.umich.edu
 H ets.umdl.umich.edu
 
-T HW Wilson
-U http://vnweb.hwwilsonweb.com/hww/jumpstart.jhtml
-D vnweb.hwwilsonweb.com
 
 Option DomainCookieOnly
 Title Project Muse (updated 20190905)
@@ -232,21 +167,11 @@ HJ https://muse.uq.edu.au
 DJ muse.jhu.edu
 Option Cookie
 
-T LIB SFX
-U http://libsfx.iu.edu
-D libsfx.iu.edu
-D www.iu.edu
-
 T OneSearch
 U http://www.onesearch.iu.edu
 U http://www.onesearch.iu.edu:8000
 D onesearch.iu.edu
 D onesearch.iu.edu:8000
-
-T Jumstart Login
-U http://vnweb.hwwilsonweb.com/hww/jumpstart.jhtml?custid=0000109728
-D hwwilsonweb.com
-D www.hwwilsonweb.com
 
 T Test IUCat
 U http://iucat-test.ucs.indiana.edu:12200
@@ -268,11 +193,12 @@ T Faulkner
 U http://www.faulkner.com
 D faulkner.com
 
-T Serials Solutions
-U http://mn3ku4ar6y.search.serialssolutions.com
-D serialssolutions.com
-DJ serialssolutions.com
-HJ serialssolutions.com
+# Updated per ralight 2026-02-25
+T Ex Libris 360 (previously called Serials Solutions)
+NeverProxy http://mn3ku4ar6y.search.serialssolutions.com
+NeverProxy http://lm3uq2cn8k.search.serialssolutions.com
+NeverProxy https://mn3ku4ar6y.search.serialssolutions.com
+NeverProxy https://lm3uq2cn8k.search.serialssolutions.com
 
 T EDUCause
 U http://www.educause.edu
@@ -345,29 +271,13 @@ T Datamonitor's MarketLine Business Info
 U http://advantage.marketline.com
 D marketlineinfo.com
 
-
-T Greeninfoonline.com
-U http://www.greeninfoonline.com
-D greeninfoonline.com
-
-
-T SciFinder Web
-u https://bl-libg-doghill.ads.iu.edu/chem-web/SciFinderWeb.html
-D bl-libg-doghill.ads.iu.edu
-D scifinder.cas.org
-
 # PubMed moved to common stanza
 
 T Census
 U http://www.census.gov
 D census.gov
 
-
 # Oxford Research Encyclopedia moved to common stanza
-
-T Pop Culture Universe
-U http://pop.greenwood.com
-D pop.greenwood.com
 
 T Mango Languages
 U http://www.mangolanguages.com
@@ -386,20 +296,47 @@ D bi-interactive.com
 
 # Oxford Art Online moved to common stanza
 
-
 # Title Oxford Reference moved to common stanza
 
-T Naxos Music Library
-U http://IUE.NaxosMusicLibrary.com
-D iue.naxosmusiclibrary.com
+# Updated per ralight 2026-02-25
+Title Naxos Music Library (updated 20250530)
+URL https://IUE.naxosmusiclibrary.com
+HJ IUE.naxosmusiclibrary.com
+HJ IUE.nml3.naxosmusiclibrary.com
+HJ https://IUE.naxosmusiclibrary.com
+HJ https://IUE.nml3.naxosmusiclibrary.com
+HJ https://www.nml3.naxosmusiclibrary.com
+HJ www.nml3.naxosmusiclibrary.com
+DJ naxosmusiclibrary.com
+## Naxos Music Library Images CDN Location
+NeverProxy cdn.naxos.com
+NeverProxy cdn.naxosmusiclibrary.com
+NeverProxy cdn2.naxos.com
+NeverProxy cdn2.naxosmusiclibrary.com
+## Naxos Music Library Audio CDN Location
+NeverProxy audiostream.naxosmusiclibrary.com
+NeverProxy audiostream2.naxosmusiclibrary.com
+NeverProxy videostream.naxosmusiclibrary.com
+NeverProxy videostream2.naxosmusiclibrary.com
+## Naxos Music Library Aux Audio CDN Location
+NeverProxy cp82361.edgefcs.net
 
-T Naxos Spoken Word Library
-U http://IUE.NaxosSpokenWordLibrary.com
-D iue.naxos.spokenwordlibrary.com
+# Updated per ralight 2026-02-25
+Title Naxos Spoken Word Library
+URL https://IUE.naxosspokenwordlibrary.com
+HJ IUE.naxosspokenwordlibrary.com
+HJ https://IUE.naxosspokenwordlibrary.com
+DJ naxosspokenwordlibrary.com
+NeverProxy audiostream.naxosspokenwordlibrary.com
+NeverProxy audiostream2.naxosspokenwordlibrary.com
+NeverProxy cdn.naxos.com
+NeverProxy cdn.naxosspokenwordlibrary.com
+NeverProxy cdn2.naxos.com
+NeverProxy cdn2.naxosspokenwordlibrary.com
+NeverProxy cp82361.edgefcs.net
+NeverProxy videostream.naxosspokenwordlibrary.com
+NeverProxy videostream2.naxosspokenwordlibrary.com
 
-T Children's Literature Database
-U http://clcd.odyssi.com
-D clcd.odyssi.com
 
 T IUCAT Test
 U http://webcat7.iu.edu
@@ -408,10 +345,6 @@ D webcat7.iu.edu
 T Vanilla IUCAT
 U http://libdev.uits.indiana.edu
 D libdev.uits.indiana.edu
-
-T IU Press Online
-U http://iupressonline.iupress.org
-D iupress.org
 
 T Digital Sanborn Maps
 U http://sanborn.umi.com
@@ -425,17 +358,6 @@ T Ship Index
 U http://shipindex.org
 D shipindex.org
 
-T National Center for Biotechnology Information
-U http://www.ncbi.nlm.nih.gov
-D ncbi.nlm.nih.gov
-
-T Wright American Fiction
-U http://www.letrs.indiana.edu/web/w/wright2/
-D letrs.indiana.edu
-
-T Historical Newspapers
-U http://infoweb.newsbank.com/?db=EANX
-D infoweb.newsbank.com
 
 # Updated per ralight 2023-01-18
 Title Highwire Press (updated 20230110)
@@ -461,16 +383,6 @@ T Freedonia Focus
 U http://www.freedoniagroup.com/focusportal/FocusSplash.aspx
 D www.freedoniagroup.com
 
-
-
-T Britannica's Image Quest
-U http://quest.eb.com
-D quest.eb.com
-
-T ASP Resolver
-U http://www.aspresolver.com/aspresolver.asp?ANTH;763978
-D www.aspresolver.com
-
 # Updated per ralight 2022-02-24
 Title CIOS (updated 20220216)
 URL https://www.cios.org
@@ -484,10 +396,6 @@ DJ cios.org
 T Department of Open Access Journals
 U http://www.doaj.org
 D www.doaj.org
-
-T Gale Science in Context
-U http://ic.galegroup.com/ic/scic
-D ic.galegroup.com
 
 T Plunkett Research Online
 U http://www.plunkettresearch.com
@@ -592,25 +500,10 @@ HJ www.hbcponline.com
 DJ chemnetbase.com
 DJ hbcponline.com
 
-Title -hide Elsevier Identity
-URL https://id.elsevier.com
-HJ https://id.elsevier.com
-HJ id.elsevier.com
-DJ id.elsevier.com
-Find redirect_uri=https://
-Replace redirect_uri=https://^A
-
 T WorldCat Mobile
 U http://worldcat.org/m
 D worldcat.org
 
-T Gale-Cengage Mobile
-U http://www.gale.cengage.com/apps
-D gale.cengage.com
-
-T ProQuest Mobile
-U http://m.search.proquest.com
-D proquest.com
 
 T RefWorks Mobile
 U http://refworks.com/mobile
@@ -620,10 +513,6 @@ T Blacklight
 U http://blacklight-dev.uits.iu.edu
 D blacklight-dev.uits.iu.edu
 
-T CRC Handbook of Chemistry and Physics
-U http://crcnetbase.com
-HJ http://hbcponline.com
-DJ crcnetbase.com
 
 T IUCAT
 U http://classic.iucat.iu.edu

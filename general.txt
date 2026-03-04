@@ -63,23 +63,7 @@ U http://iue.kanopystreaming.com
 H https://iue.kanopystreaming.com
 D kanopystreaming.com
 
-# Updated per ralight 2023-03-02
-T Liebert (updated 20230223)
-U https://www.liebertpub.com
-HJ home.liebertpub.com
-HJ https://home.liebertpub.com
-HJ https://liebertonline.com
-HJ https://liebertpub.com
-HJ https://mal.scienceconnect.io
-HJ https://online.liebertpub.com
-HJ https://www.liebertonline.com
-HJ liebertonline.com
-HJ liebertpub.com
-HJ mal.scienceconnect.io
-HJ online.liebertpub.com
-HJ www.liebertonline.com
-HJ www.liebertpub.com
-DJ liebertpub.com
+# Liebert moved to common_stanza
 
 # Lasted reviewed by ralight 2026-02-25
 # Updated per ralight 2023-10-16
@@ -94,9 +78,6 @@ HJ www.learningexpresslibrary3.com
 DJ learningexpresslibrary3.com
 DJ learningexpresshub.com
 
-
-T Social Explorer
-U https://www.socialexplorer.com 
 
 # Updated per ralight 2026-02-25
 Title HeritageQuest Online

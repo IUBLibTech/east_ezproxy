@@ -24,13 +24,6 @@
 
 # Ingenta moved to common stanza
 
-T World Cat
-U http://www.ref.oclc.org:2000/dbname=WorldCat;done=referer;timeout=600;FSIP
-D www.ref.oclc.org
-D www.oclc.org
-D www.worldcat.org
-D campuslibraryiueast.worldcat.org
-
 # OCLC FirstSearch moved to common_stanza
 
 Title American Chemical Society
@@ -106,21 +99,9 @@ NeverProxy acs.ebookcentral.proquest.com
 
 # MathSciNet moved to common_stanzas
 
-
-T Cambridge Scientific Abstracts
-U http://www.csa.com/htbin/dbrng.cgi?username=iue&access=iue24&db=socioabs-set-c
-D www.csa.com
-D md1.csa.com
-D mdl.csa.com
-D csa.com
-
 T RefWorks Login
 U http://www.refworks.com
 D www.refworks.com
-
-T Bowker's Books In Print Professional
-U http://www.booksinprint.com
-D www.booksinprint.com
 
 T CIC E-publishing Venture
 U http://name.umdl.umich.edu
@@ -164,10 +145,6 @@ T Library.PressDisplay.com
 U http://library.pressdisplay.com
 D library.pressdisplay.com
 
-T Faulkner
-U http://www.faulkner.com
-D faulkner.com
-
 # Updated per ralight 2026-02-25
 T Ex Libris 360 (previously called Serials Solutions)
 NeverProxy http://mn3ku4ar6y.search.serialssolutions.com
@@ -175,9 +152,6 @@ NeverProxy http://lm3uq2cn8k.search.serialssolutions.com
 NeverProxy https://mn3ku4ar6y.search.serialssolutions.com
 NeverProxy https://lm3uq2cn8k.search.serialssolutions.com
 
-T EDUCause
-U http://www.educause.edu
-D educause.edu
 
 T Diagnostic Mental Disorders
 U http://online.statref.com
@@ -230,16 +204,6 @@ T Career Collection
 U http://inspire.in.gov
 D inspire.in.gov
 
-T Homeland Security Digital Library
-U http://www.hsdl.org
-D hsdl.org
-
-
-T Project Gutenberg
-U http://www.gutenberg.org/wiki/Main_Page
-D gutenberg.org
-
-
 # ACM Digital Library moved to common stanza: acmdigital.txt
 
 T Datamonitor's MarketLine Business Info
@@ -248,30 +212,14 @@ D marketlineinfo.com
 
 # PubMed moved to common stanza
 
-T Census
-U http://www.census.gov
-D census.gov
-
 # Oxford Research Encyclopedia moved to common stanza
-
-T Mango Languages
-U http://www.mangolanguages.com
-D mangolanguages.com
-
-T NetLibrary
-U http://www.netlibrary.com
-D netlibrary.com
-
-T iReports
-U http://www.bi-interactive.com
-D bi-interactive.com
 
 
 # Oxford Music Online moved to common stanza
 
 # Oxford Art Online moved to common stanza
 
-# Title Oxford Reference moved to common stanza
+# Oxford Reference moved to common stanza
 
 
 
@@ -286,10 +234,6 @@ D libdev.uits.indiana.edu
 T Digital Sanborn Maps
 U http://sanborn.umi.com
 D sanborn.umi.com
-
-T Ship Index
-U http://shipindex.org
-D shipindex.org
 
 
 # Updated per ralight 2023-01-18
@@ -312,10 +256,6 @@ HJ portal.highwire.org
 DJ highwirepress.com
 DJ stanford.edu
 
-T Freedonia Focus
-U http://www.freedoniagroup.com/focusportal/FocusSplash.aspx
-D www.freedoniagroup.com
-
 # Updated per ralight 2022-02-24
 Title CIOS (updated 20220216)
 URL https://www.cios.org
@@ -326,9 +266,6 @@ HJ http://shadow.cios.org
 HJ http://www.cios.org
 DJ cios.org
 
-T Department of Open Access Journals
-U http://www.doaj.org
-D www.doaj.org
 
 T Plunkett Research Online
 U http://www.plunkettresearch.com
@@ -383,9 +320,6 @@ HJ http://www.conference-board.org
 HJ https://data-central.conference-board.org
 DJ conference-board.org
 
-T Fiat
-U http://www.faulkner.com/entrance
-D www.faulkner.com
 
 T c19index
 U http://c19index.chadwyck.com/home
@@ -401,23 +335,9 @@ T Teaching Book
 U http://www.teachingbooks.net
 D teachingbooks.net
 
-T Henry Stewart Talks
-U http://www.hstalks.com
-D hstalks.com
-
-
 T ValueLine
 U http://www3.valueline.com/secure/vlispdf/stk5000/index.aspx 
 D www3.valueline.com
-
-T UNO
-U http://www.unomaha.com
-H www.unomaha.edu
-
-T Institute of Physics
-U http://www.iop.org
-D www.iop.org
-
 
 # Updated per ralight 2021-09-08
 Title Handbook of Chemistry and Physics (updated 20210329)
@@ -433,30 +353,10 @@ HJ www.hbcponline.com
 DJ chemnetbase.com
 DJ hbcponline.com
 
-T WorldCat Mobile
-U http://worldcat.org/m
-D worldcat.org
-
-
-T RefWorks Mobile
-U http://refworks.com/mobile
-D refworks.com
-
 T Blacklight	
 U http://blacklight-dev.uits.iu.edu
 D blacklight-dev.uits.iu.edu
 
-
-T IUCAT
-U http://classic.iucat.iu.edu
-U http://classic.iucat-test.uits.iu.edu:12200
-HJ classic.iucat.iu.edu
-HJ classic.iucat-test.uits.iu.edu:12200
-
-
-T GaleGroup
-u http://go.galegroup.com/ps/start.do?p=GVRL&u=iulib_east&authCount=1
-D galegroup.com
 
 # Updated per RAL 2020-02-11
 Title UpToDate

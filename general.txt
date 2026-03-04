@@ -7,7 +7,10 @@
 
 ####################################################################################################
 
+
 # ABC-CLIO Databases and Ebooks moved to common_stanza
+
+# Access Medicine moved to common_stanza
 
 # Newsbank/Readex Databases moved to common_stanza
 
@@ -28,16 +31,7 @@ D www.oclc.org
 D www.worldcat.org
 D campuslibraryiueast.worldcat.org
 
-T First Search
-U http://newfirstsearch.oclc.org
-D newfirstsearch.oclc.org
-D www.newfirstsearch.oclc.org
-
-
-T MLA
-U http://firstsearch.oclc.org/dbname=MLA;done=referer;timeout=600;FSIP
-D firstsearch.oclc.org
-D www.oclc.org
+# OCLC FirstSearch moved to common_stanza
 
 Title American Chemical Society
 URL http://pubs.acs.org
@@ -298,44 +292,6 @@ D bi-interactive.com
 
 # Title Oxford Reference moved to common stanza
 
-# Updated per ralight 2026-02-25
-Title Naxos Music Library (updated 20250530)
-URL https://IUE.naxosmusiclibrary.com
-HJ IUE.naxosmusiclibrary.com
-HJ IUE.nml3.naxosmusiclibrary.com
-HJ https://IUE.naxosmusiclibrary.com
-HJ https://IUE.nml3.naxosmusiclibrary.com
-HJ https://www.nml3.naxosmusiclibrary.com
-HJ www.nml3.naxosmusiclibrary.com
-DJ naxosmusiclibrary.com
-## Naxos Music Library Images CDN Location
-NeverProxy cdn.naxos.com
-NeverProxy cdn.naxosmusiclibrary.com
-NeverProxy cdn2.naxos.com
-NeverProxy cdn2.naxosmusiclibrary.com
-## Naxos Music Library Audio CDN Location
-NeverProxy audiostream.naxosmusiclibrary.com
-NeverProxy audiostream2.naxosmusiclibrary.com
-NeverProxy videostream.naxosmusiclibrary.com
-NeverProxy videostream2.naxosmusiclibrary.com
-## Naxos Music Library Aux Audio CDN Location
-NeverProxy cp82361.edgefcs.net
-
-# Updated per ralight 2026-02-25
-Title Naxos Spoken Word Library
-URL https://IUE.naxosspokenwordlibrary.com
-HJ IUE.naxosspokenwordlibrary.com
-HJ https://IUE.naxosspokenwordlibrary.com
-DJ naxosspokenwordlibrary.com
-NeverProxy audiostream.naxosspokenwordlibrary.com
-NeverProxy audiostream2.naxosspokenwordlibrary.com
-NeverProxy cdn.naxos.com
-NeverProxy cdn.naxosspokenwordlibrary.com
-NeverProxy cdn2.naxos.com
-NeverProxy cdn2.naxosspokenwordlibrary.com
-NeverProxy cp82361.edgefcs.net
-NeverProxy videostream.naxosspokenwordlibrary.com
-NeverProxy videostream2.naxosspokenwordlibrary.com
 
 
 T IUCAT Test
@@ -349,10 +305,6 @@ D libdev.uits.indiana.edu
 T Digital Sanborn Maps
 U http://sanborn.umi.com
 D sanborn.umi.com
-
-T Access Medicine
-U http://www.accessmedicine.com
-D accessmedicine.com
 
 T Ship Index
 U http://shipindex.org

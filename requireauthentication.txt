@@ -1,4 +1,3 @@
 ### Stanzas to Always Authenticate ###
 
 INCLUDEFILE ../common_stanzas/aacrjournals.txt
-INCLUDEFILE ../common_stanzas/mathscinet.txt

@@ -26,23 +26,7 @@
 
 # OCLC FirstSearch moved to common_stanza
 
-Title American Chemical Society
-URL http://pubs.acs.org
-HJ acs.org
-HJ cenglobal.acs.org
-HJ https://cenglobal.acs.org
-HJ https://pubs.acs.org
-HJ pubs.acs.org
-HJ www.acs.org
-HJ www.chemistry.org
-HJ www.pubs.acs.org
-DJ acs.org
-Find hostdev="pubsdev.acs.org"
-Replace hostdev="^ppubsdev.acs.org^"
-Find hosttest="pubstest.acs.org"
-Replace hosttest="^ppubstest.acs.org^"
-Find hostprod="pubs.acs.org"
-Replace hostprod="^ppubs.acs.org^"
+# American Chemical Society moved to common stanza
 
 # Lasted reviewed by ralight 2026-02-25
 T Kanopy 

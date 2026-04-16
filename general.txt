@@ -9,24 +9,13 @@
 
 
 # ABC-CLIO Databases and Ebooks moved to common_stanza
-
 # Access Medicine moved to common_stanza
-
-# Newsbank/Readex Databases moved to common_stanza
-
-# Harper's Weekly moved to common_stanza
-
-# DOI system moved to common stanza
-
-# Britannica - Consumer moved to common stanza
-
-# Ent Today moved to common stanza
-
-# Ingenta moved to common stanza
-
-# OCLC FirstSearch moved to common_stanza
-
 # American Chemical Society moved to common stanza
+# Britannica - Consumer moved to common stanza
+# DOI system moved to common stanza
+# Ent Today moved to common stanza
+# Harper's Weekly moved to common_stanza
+# Ingenta moved to common stanza
 
 # Lasted reviewed by ralight 2026-02-25
 T Kanopy 
@@ -40,20 +29,12 @@ U http://iue.kanopystreaming.com
 H https://iue.kanopystreaming.com
 D kanopystreaming.com
 
+# Learning Express Library 3.0 - PrepStep for Colleges moved to common stanza
 # Liebert moved to common_stanza
+# Newsbank/Readex Databases moved to common_stanza
+# OCLC FirstSearch moved to common_stanza
 
-# Lasted reviewed by ralight 2026-02-25
-# Updated per ralight 2023-10-16
-# Stanza modified from OCLC stanza
-Option Cookie
-Title Learning Express Library 3.0 - PrepStep for Colleges
-URL https://learningexpresslibrary3.com/?AuthToken=2df0be07-7488-499e-9b4f-ae3d2aab2262
-HJ http://learningexpresslibrary3.com
-HJ https://www.learningexpresshub.com/
-HJ https://www.learningexpresslibrary3.com
-HJ www.learningexpresslibrary3.com
-DJ learningexpresslibrary3.com
-DJ learningexpresshub.com
+
 
 
 # Updated per ralight 2026-02-25

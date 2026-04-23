@@ -35,15 +35,6 @@ D kanopystreaming.com
 # OCLC FirstSearch moved to common_stanza
 
 
-
-
-# Updated per ralight 2026-02-25
-Title HeritageQuest Online
-URL https://www.heritagequestonline.com
-HJ https://www.heritagequestonline.com
-DJ heritagequestonline.com
-NeverProxy ancestryheritagequest.com
-
 # Updated per ralight 2022-12-21
 Title BioOne Complete (updated 20200923)
 URL https://www.bioone.org/
@@ -63,10 +54,6 @@ DJ ebookcentral.proquest.com
 NeverProxy acs.ebookcentral.proquest.com
 
 # MathSciNet moved to common_stanzas
-
-T RefWorks Login
-U http://www.refworks.com
-D www.refworks.com
 
 T CIC E-publishing Venture
 U http://name.umdl.umich.edu
@@ -88,24 +75,12 @@ HJ https://muse.uq.edu.au
 DJ muse.jhu.edu
 Option Cookie
 
-T OneSearch
-U http://www.onesearch.iu.edu
-U http://www.onesearch.iu.edu:8000
-D onesearch.iu.edu
-D onesearch.iu.edu:8000
-
-T Test IUCat
-U http://iucat-test.ucs.indiana.edu:12200
-D iucat-test.ucs.indiana.edu:12200
-
-T GL3.1 Vanilla
-U http://es07.uits.indiana.edu:17707
-D es07.uits.indiana.edu:17707
-
+# Confirming status with Beth South. ER013 04-23-26
 T IUE - Illiad
 U http://iue.illiad.oclc.org
 D iue.illiad.oclc.org
 
+# Confirming status with Beth South. ER013 04-23-26
 T Library.PressDisplay.com
 U http://library.pressdisplay.com
 D library.pressdisplay.com
@@ -117,7 +92,7 @@ NeverProxy http://lm3uq2cn8k.search.serialssolutions.com
 NeverProxy https://mn3ku4ar6y.search.serialssolutions.com
 NeverProxy https://lm3uq2cn8k.search.serialssolutions.com
 
-
+# Confirming status with Beth South. ER013 04-23-26
 T Diagnostic Mental Disorders
 U http://online.statref.com
 D online.statref.com
@@ -171,10 +146,6 @@ D inspire.in.gov
 
 # ACM Digital Library moved to common stanza: acmdigital.txt
 
-T Datamonitor's MarketLine Business Info
-U http://advantage.marketline.com
-D marketlineinfo.com
-
 # PubMed moved to common stanza
 
 # Oxford Research Encyclopedia moved to common stanza
@@ -185,21 +156,6 @@ D marketlineinfo.com
 # Oxford Art Online moved to common stanza
 
 # Oxford Reference moved to common stanza
-
-
-
-T IUCAT Test
-U http://webcat7.iu.edu
-D webcat7.iu.edu
-
-T Vanilla IUCAT
-U http://libdev.uits.indiana.edu
-D libdev.uits.indiana.edu
-
-T Digital Sanborn Maps
-U http://sanborn.umi.com
-D sanborn.umi.com
-
 
 # Updated per ralight 2023-01-18
 Title Highwire Press (updated 20230110)
@@ -221,61 +177,7 @@ HJ portal.highwire.org
 DJ highwirepress.com
 DJ stanford.edu
 
-# Updated per ralight 2022-02-24
-Title CIOS (updated 20220216)
-URL https://www.cios.org
-HJ http://www.cios.org
-HJ https://shadow.cios.org
-HJ http://shadow.cios.org
-# Extra host added during migration to https
-HJ http://www.cios.org
-DJ cios.org
-
-
-T Plunkett Research Online
-U http://www.plunkettresearch.com
-D www.plunkettresearch.com
-
-T Library Music Source
-U http://librarymusicsource.com/
-D librarymusicsource.com
-
-T Chadwyck Periodicals Archive Online
-U http://pao.chadwyck.com
-D pao.chadwyck.com
-
-T Chadwyck Editions and Adaptions of Shakespear
-U http://collections.chadwyck.com/eas
-D collections.chadwyck.com
-
-T Chadwyck Early English Books Online
-U http://eebo.chadwyck.com/search
-D eebo.chadwyck.com
-
-T Chadwyck American Film Institute
-U http://afi.chadwyck.com/home
-D afi.chadwyck.com
-
-T Chadwyck African Writers Series
-U http://collections.chadwyck.co.uk/home/home_aws.jsp
-D collections.chadwyck.co.uk
-
-T Chadwyck Digital NSA
-U http://nsarchive.chadwyck.com/home.do
-D nsarchive.chadwyck.com
-
-T Chadwyck Film Index
-U http://fii.chadwyck.com
-D fii.chadwyck.com
-
-T Chadwyck ii to black periodicals
-U http://iibp.chadwyck.com
-D iibp.chadwyck.com
-
-T Chadwyck PIO
-U http://pio.chadwyck.com/home.do
-D pio.cahdwyck.com
-
+# Confirming status with Beth South. ER013 04-23-26
 # Updated per ralight 2022-12-08
 T Conference Board (Added 20221202)
 HTTPHeader -response -process X-XSRF-TOKEN
@@ -286,15 +188,7 @@ HJ https://data-central.conference-board.org
 DJ conference-board.org
 
 
-T c19index
-U http://c19index.chadwyck.com/home
-D c19index.chadwyck.com
-
 # Oxford Academic moved to common stanza
-
-T palgraveconnect
-U http://www.palgraveconnect.com/index.html
-D palgraveconnect.com
 
 T Teaching Book
 U http://www.teachingbooks.net
@@ -336,43 +230,6 @@ HJ www.uptodateonline.com
 HJ www.utdol.com
 DJ uptodate.com
 
-T Literary Research Guide
-U http://www.mlalrg.org
-D mlalrg.org
-
-
-T Goethes Werke im WWW
-U http://goethe.chadwyck.com
-D goethe.chadwyck.com
-
-T ProQuest Criminal Justice
-U http://search.proquest.com
-D search.proquest.com
-
-T Periodicals Index Online
-U http://search.proquest.com
-D search.proquest.com
-
-T International index to the performing arts
-U http://search.proquest.com
-D search.proquest.com
-
-T International index to music periodicals
-U http://search.proquest.com
-D search.proquest.com
-
-T Rheumatologist
-U http://www.the-rheumatologist.org/view/index.html
-H www.the-rheumatologist.org
-
-Title London Low Life
-URL http://www.londonlowlife.amdigital.co.uk
-Host www.londonlowlife.amdigital.co.uk
-
-T JAMAevidence
-URL http://jamaevidence.mhmedical.com
-HJ https://jamaevidence.mhmedical.com
-
 # Updated to https per ralight 2022-07-29
 Title AAPG Datapages
 URL https://archives.datapages.com/
@@ -384,6 +241,7 @@ DJ datapages.com
 DJ aapg.org
 DJ searchanddiscovery.com
 
+# Confirming status with Beth South. ER013 04-23-26
 T PBS.org
 U http://video.pbs.org/video/2365076018
 U http://video.pbs.org/video/2365076051

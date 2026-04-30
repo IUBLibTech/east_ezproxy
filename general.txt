@@ -35,14 +35,7 @@ D kanopystreaming.com
 # OCLC FirstSearch moved to common_stanza
 
 
-# Updated per ralight 2022-12-21
-Title BioOne Complete (updated 20200923)
-URL https://www.bioone.org/
-HJ http://www.bioone.org
-HJ https://bioone.org
-HJ http://bioone.org
-HJ www.bioone.org
-DJ bioone.org
+# BioOne Complete moved to common stanza
 
 # Last reviewed by ralight 2026-02-25
 # Updated per ralight 2023-10-06
@@ -64,26 +57,7 @@ H umdl.umich.edu
 H hti.umich.edu
 H ets.umdl.umich.edu
 
-
-Option DomainCookieOnly
-Title Project Muse (updated 20190905)
-URL http://muse.jhu.edu/
-HJ https://muse.jhu.edu
-HJ http://www.muse.jhu.edu
-HJ muse.uq.edu.au
-HJ https://muse.uq.edu.au
-DJ muse.jhu.edu
-Option Cookie
-
-# Confirming status with Beth South. ER013 04-23-26
-T IUE - Illiad
-U http://iue.illiad.oclc.org
-D iue.illiad.oclc.org
-
-# Confirming status with Beth South. ER013 04-23-26
-T Library.PressDisplay.com
-U http://library.pressdisplay.com
-D library.pressdisplay.com
+# Project Muse moved to common stanza
 
 # Updated per ralight 2026-02-25
 T Ex Libris 360 (previously called Serials Solutions)
@@ -92,57 +66,11 @@ NeverProxy http://lm3uq2cn8k.search.serialssolutions.com
 NeverProxy https://mn3ku4ar6y.search.serialssolutions.com
 NeverProxy https://lm3uq2cn8k.search.serialssolutions.com
 
-# Confirming status with Beth South. ER013 04-23-26
-T Diagnostic Mental Disorders
-U http://online.statref.com
-D online.statref.com
+# Fulcrum moved to common stanza
 
-# Updated per ralight 2022-07-07
-Title Fulcrum (updated 20180731)
-URL https://www.fulcrum.org
-HJ hdl.handle.net
-HJ https://hdl.handle.net
-HJ www.fulcrum.org
-HJ https://www.fulcrum.org
-HJ fulcrum.org
-HJ https://fulcrum.org
-DJ fulcrum.org 
+# Google Scholar moved to common stanza
 
-# Updated per ralight 2022-10-14
-Title Google Scholar (Updated 20221007)
-URL http://scholar.google.com
-Host https://scholar.google.com
-Host scholar.google.com.au
-Host https://scholar.google.com.au
-Host scholar.google.ca
-Host https://scholar.google.ca
-Host scholar.google.de
-Host https://scholar.google.de
-Host scholar.google.fi
-Host https://scholar.google.fi
-Host scholar.google.com.hk
-Host https://scholar.google.com.hk
-Host scholar.google.nl
-Host https://scholar.google.nl
-Host scholar.google.co.nz
-Host https://scholar.google.co.nz
-Host scholar.google.co.uk
-Host https://scholar.google.co.uk
-Host scholar.google.se
-Host https://scholar.google.se
-Host scholar.google.co.za
-Host https://scholar.google.co.za
-Host www.scholar.google.com
-Host https://scholar.google.ae
-Host scholar.google.ae
-Host https://scholar.google.be
-Host scholar.google.be
-Host https://scholar.google.it
-Host scholar.google.it
-
-T Career Collection
-U http://inspire.in.gov
-D inspire.in.gov
+# INSPIRE moved to common stanza
 
 # ACM Digital Library moved to common stanza: acmdigital.txt
 
@@ -150,53 +78,15 @@ D inspire.in.gov
 
 # Oxford Research Encyclopedia moved to common stanza
 
-
 # Oxford Music Online moved to common stanza
 
 # Oxford Art Online moved to common stanza
 
 # Oxford Reference moved to common stanza
 
-# Updated per ralight 2023-01-18
-Title Highwire Press (updated 20230110)
-URL https://www.highwirepress.com/
-HJ highwire.org
-HJ highwire.stanford.edu
-HJ highwirepress.com
-HJ home.highwire.org
-HJ https://highwirepress.com
-HJ https://plato.stanford.edu
-HJ https://www.highwire.org
-HJ https://www.highwirepress.com
-HJ openurl.highwire.org
-HJ plato.stanford.edu
-HJ www.highwire.org
-HJ www.highwirepress.com
-HJ https://portal.highwire.org
-HJ portal.highwire.org
-DJ highwirepress.com
-DJ stanford.edu
-
-# Confirming status with Beth South. ER013 04-23-26
-# Updated per ralight 2022-12-08
-T Conference Board (Added 20221202)
-HTTPHeader -response -process X-XSRF-TOKEN
-HTTPHeader -response -process X-CSRF-TOKEN
-URL https://www.conference-board.org
-HJ http://www.conference-board.org
-HJ https://data-central.conference-board.org
-DJ conference-board.org
-
-
 # Oxford Academic moved to common stanza
 
-T Teaching Book
-U http://www.teachingbooks.net
-D teachingbooks.net
-
-T ValueLine
-U http://www3.valueline.com/secure/vlispdf/stk5000/index.aspx 
-D www3.valueline.com
+# TeachingBooks moved to common stanza
 
 # Updated per ralight 2021-09-08
 Title Handbook of Chemistry and Physics (updated 20210329)

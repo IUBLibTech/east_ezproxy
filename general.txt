@@ -7,15 +7,42 @@
 
 ####################################################################################################
 
+# AAPG Datapages moved to common stanza: aapg-datapages.txt
+# ABC-CLIO Databases and Ebooks moved to common stanza: abc-clio.txt
+# Access Medicine moved to common stanza: mcgraw_hill_medical.txt
+# ACM Digital Library moved to common stanza: acmdigital.txt
+# American Chemical Society moved to common stanza: american-chemical-society.txt
+# BioOne Complete moved to common stanza: bioone.txt
+# Britannica - Consumer moved to common stanza: britannicaacademic.txt
+# CIC E-publishing Venture moved to common stanza: cic-epublishing-venture.txt
+# DOI system moved to common stanza: doi-system.txt
 
-# ABC-CLIO Databases and Ebooks moved to common_stanza
-# Access Medicine moved to common_stanza
-# American Chemical Society moved to common stanza
-# Britannica - Consumer moved to common stanza
-# DOI system moved to common stanza
-# Ent Today moved to common stanza
-# Harper's Weekly moved to common_stanza
-# Ingenta moved to common stanza
+# Last reviewed by ralight 2026-02-25
+# Updated per ralight 2023-10-06
+Title Ebook Central Proxied
+URL https://ebookcentral.proquest.com/lib/iueast-ebooks
+HJ http://ebookcentral.proquest.com/lib/iueast-ebooks
+HJ https://ebookcentral.proquest.com/lib/iueast-ebooks
+DJ ebookcentral.proquest.com
+NeverProxy acs.ebookcentral.proquest.com
+
+# Ent Today moved to common stanza: ent-today.txt
+
+# Updated per ralight 2026-02-25
+T Ex Libris 360 (previously called Serials Solutions)
+NeverProxy http://mn3ku4ar6y.search.serialssolutions.com
+NeverProxy http://lm3uq2cn8k.search.serialssolutions.com
+NeverProxy https://mn3ku4ar6y.search.serialssolutions.com
+NeverProxy https://lm3uq2cn8k.search.serialssolutions.com
+
+# Foundation Directory Online moved to common stanza (new URL): candid.txt
+# Fulcrum moved to common stanza: fulcrum.txt
+# Google Scholar moved to common stanza: google-scholar.txt
+# Handbook of Chemistry and Physics moved to common stanza: handbook-chemistry-physics.txt
+# Harper's Weekly moved to common stanza: alexanderstreet.txt
+# Ingenta moved to common stanza: ingentaconnect.txt
+# INSPIRE moved to common stanza: inspire.txt
+
 
 # Lasted reviewed by ralight 2026-02-25
 T Kanopy 
@@ -29,80 +56,21 @@ U http://iue.kanopystreaming.com
 H https://iue.kanopystreaming.com
 D kanopystreaming.com
 
-# Learning Express Library 3.0 - PrepStep for Colleges moved to common stanza
-# Liebert moved to common_stanza
-# Newsbank/Readex Databases moved to common_stanza
-# OCLC FirstSearch moved to common_stanza
-
-
-# BioOne Complete moved to common stanza
-
-# Last reviewed by ralight 2026-02-25
-# Updated per ralight 2023-10-06
-Title Ebook Central Proxied
-URL https://ebookcentral.proquest.com/lib/iueast-ebooks
-HJ http://ebookcentral.proquest.com/lib/iueast-ebooks
-HJ https://ebookcentral.proquest.com/lib/iueast-ebooks
-DJ ebookcentral.proquest.com
-NeverProxy acs.ebookcentral.proquest.com
-
-# MathSciNet moved to common_stanzas
-
-T CIC E-publishing Venture
-U http://name.umdl.umich.edu
-DJ ets.umdl.umich.edu
-DJ umdl.umich.edu
-DJ hti.umich.edu
-H umdl.umich.edu
-H hti.umich.edu
-H ets.umdl.umich.edu
-
-# Project Muse moved to common stanza
-
-# Updated per ralight 2026-02-25
-T Ex Libris 360 (previously called Serials Solutions)
-NeverProxy http://mn3ku4ar6y.search.serialssolutions.com
-NeverProxy http://lm3uq2cn8k.search.serialssolutions.com
-NeverProxy https://mn3ku4ar6y.search.serialssolutions.com
-NeverProxy https://lm3uq2cn8k.search.serialssolutions.com
-
-# Fulcrum moved to common stanza
-
-# Google Scholar moved to common stanza
-
-# INSPIRE moved to common stanza
-
-# ACM Digital Library moved to common stanza: acmdigital.txt
-
-# PubMed moved to common stanza
-
-# Oxford Research Encyclopedia moved to common stanza
-
-# Oxford Music Online moved to common stanza
-
-# Oxford Art Online moved to common stanza
-
-# Oxford Reference moved to common stanza
-
-# Oxford Academic moved to common stanza
-
-# TeachingBooks moved to common stanza
-# Handbook of Chemistry and Physics moved to common stanza
-
-
-# UpToDate moved to common stanza
-
-# AAPG Datapages moved to common stanza
-
-
-
-# Updated per RAL 2020-03-30
-Title Foundation Directory Online
-URL https://fconline.foundationcenter.org/ipl.php
-HJ fconline.foundationcenter.org
-DJ foundationcenter.org
-
-#  Wiley Digital Archives moved to common stanza
+# Learning Express Library 3.0 - PrepStep for Colleges moved to common stanza: learning-express-library.txt
+# Liebert moved to common stanza: liebert.txt
+# MathSciNet moved to common_stanzas: mathscinet.txt
+# Newsbank/Readex Databases moved to common stanza: newsbank-readex.txt
+# OCLC FirstSearch moved to common stanza: oclc-firstsearch.txt
+# Oxford Research Encyclopedia moved to common stanza: oxford-academic.txt
+# Oxford Music Online moved to common stanza: oxford-academic.txt
+# Oxford Art Online moved to common stanza: oxford-academic.txt
+# Oxford Reference moved to common stanza: oxford-academic.txt
+# Oxford Academic moved to common stanza: oxford-academic.txt
+# Project Muse moved to common stanza: project-muse.txt
+# PubMed moved to common stanza: pubmed.txt
+# TeachingBooks moved to common stanza: teachingbooks.txt
+# UpToDate moved to common stanza: uptodate.txt
+# Wiley Digital Archives moved to common stanza: wiley-digital-archive.txt
 
 # Updated per ralight 2026-03-11
 Title campuslibraryiueast WorldCat Discovery
@@ -120,30 +88,6 @@ Replace returnLocation = "https://^Acampuslibraryiueast.on.worldcat.org"
 Find sendLocation = scheme + location.hostname + (location.port != "" ? ":" + location.port : "")
 Replace sendLocation = "https://^scampuslibraryiueast.on.worldcat.org^"
 
-
-Title -Hide WorldCat IDM and static content (updated 20151007)
-URL http://worldcat.org
-HJ on.worldcat.org
-DJ worldcat.org 
-
-# Added per ralight 2022-08-19
-Title Scientific American (updated 20190531)
-URL https://www.scientificamerican.com/
-HJ http://www.scientificamerican.com/
-HJ https://www.sciam.com
-HJ http://www.sciam.com
-DJ sciam.com
-DJ scientificamerican.com
-
-Title The HistoryMakers African American Oral History Archive (updated 20210428)
-URL https://da.thehistorymakers.org
-HJ da.thehistorymakers.org
-HJ marc.thehistorymakers.org
-HJ https://marc.thehistorymakers.org
-DJ thehistorymakers.org
-
-Title Swank Digital Campus (updated 20200515)
-URL https://digitalcampus.swankmp.net/
-H digitalcampus.swankmp.net
-H https://permalinks.swankmp.net
-D swankmp.net
+# WorldCat IDM and statitic content moved to common stanza: worldcat-org.txt
+# Scientific American moved to common stanza: scientific-american.txt
+# Swank Digital Campus moved to common stanza: swank-digital-campus.txt

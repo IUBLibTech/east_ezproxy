@@ -70,6 +70,13 @@ D kanopystreaming.com
 # PubMed moved to common stanza: pubmed.txt
 # TeachingBooks moved to common stanza: teachingbooks.txt
 # UpToDate moved to common stanza: uptodate.txt
+
+# Added per ralight 2026-07-06
+Title Western Wayne News
+URL https://westernwaynenews.com/
+HJ https://westernwaynenews.com
+DJ westernwaynenews.com
+
 # Wiley Digital Archives moved to common stanza: wiley-digital-archive.txt
 
 # Updated per ralight 2026-03-11
